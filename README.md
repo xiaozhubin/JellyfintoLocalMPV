@@ -9,10 +9,12 @@
 3. 修改 `mpv_protocol.reg` 中的 playwithmpv.ps1 的路径。
 4. 双击 `mpv_protocol.reg` 注册。
 5. 将 `Jellyfin_to_MPV.js` 中的脚本复制到油猴中。
+6. 在Jellyfin 中复制密钥，用于通过api获取视频在服务器中的路径。
 
 
 
 > 如果ps1脚本无法运行，可能是windows策略有问题，请按以下方法解决。
 > 1. 以管理员身份打开 PowerShell。
 > 2. 输入 `Set-ExecutionPolicy RemoteSigned` 或 `Set-ExecutionPolicy Unrestricted`。按 Y 确认。
+> 
 > 注意： Unrestricted 风险较高。RemoteSigned 通常足够，它允许本地脚本运行，但要求下载的脚本有签名。了解这些策略的含义再做选择。
