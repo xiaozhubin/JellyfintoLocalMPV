@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\mpv]
+@="URL:MPV Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\mpv\shell]
+
+[HKEY_CLASSES_ROOT\mpv\shell\open]
+
+[HKEY_CLASSES_ROOT\mpv\shell\open\command]
+@="powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -WindowStyle Hidden -File \"C:\\MPV\\playwithmpv.ps1\" \"%1\"" //此处修改为playwithmpv.ps1的路径
