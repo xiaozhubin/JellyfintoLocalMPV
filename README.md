@@ -8,7 +8,7 @@
 2. 修改 `playwithmpv.ps1` 中 MPV 的路径。
 3. 修改 `mpv_protocol.reg` 中的 playwithmpv.ps1 的路径。
 4. 双击 `mpv_protocol.reg` 注册。
-5. 将 `` 中的脚本复制到油猴脚本中。
+5. 将 `Jellyfin_to_MPV.js` 中的脚本复制到油猴中。
 
 
 
